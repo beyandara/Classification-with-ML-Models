@@ -422,7 +422,7 @@ class DecisionTree():
     
 
     def _predict(self,X,node):
-        """ Predict class (y vector) for feature matrix X
+        """ Predict class (y-vector) for feature matrix X
         
         # Arguments:
         X       NumPy feature matrix, shape (n_samples, n_features)
